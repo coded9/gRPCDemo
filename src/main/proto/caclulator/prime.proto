@@ -5,10 +5,11 @@ package calculator;
 option java_package = "com.proto.calculator";
 option java_multiple_files = true;
 
-message AverageRequest{
-   int32 num = 1;
+
+message PrimeRequest {
+  int32 num = 1;
 }
 
-message AverageResponse{
-   double result = 1;
+message PrimeResponse{
+  int32 result = 1;
 }
